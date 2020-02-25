@@ -7,7 +7,11 @@
         <link href="/feed.xml" type="application/rss+xml" rel="alternate" title="recent posts" />
     {% endif %}
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-    <title>{{ site.title }}</title>
+    {% if page.url == '/' %}
+        <title>{{ site.title }}</title>
+    {% else %}
+        <title>{{ page.title }} | {{ site.title }}</title>
+    {% endif %}
 </head>
 <body>
     <main>
