@@ -41,6 +41,12 @@ main {
             color: $text-color;
             text-decoration: none;
         }
+        p.description {
+            margin-left: 4rem;
+            margin-top: -0.25rem;
+            line-height: 1.25;
+            font-style: italic;
+        }
     }
 }
 .post {
