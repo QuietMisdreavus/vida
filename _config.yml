@@ -1,6 +1,9 @@
 title: vida
 baseurl: "/vida"
 
+# Fill this out to include author information in RSS/OpenGraph info
+author:
+
 exclude: ["README.md"]
 
 date_format: "%Y-%m-%d"
